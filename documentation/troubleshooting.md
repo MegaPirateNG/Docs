@@ -5,7 +5,7 @@ title: Troubleshooting
 
 # Troubleshooting
 
-## Arduino IDE hangs after a successfull compile but hangs while uploading to the flight controller
+## After a successfull compile the Arduino IDE hangs while uploading the firmware to the flight controller
 
 There is a bug with old Arduino bootloaders, you have the following options:
 
