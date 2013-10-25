@@ -17,7 +17,7 @@ You need a special version of the Arduino software to compile the source.
 2. The latest sourcecode
 
 * [MegaPirateNG - APM:Copter 3.0.1-R3](https://github.com/SirAlex/ardupilot-mpng/archive/mpng-3.0.1-r3.zip)
-* [MegaPirateNG - APM:Pane 2.74b](https://github.com/smurfy/ardupilot-mpng/archive/mpng_ArduPlane-2.74b.zip)
+* [MegaPirateNG - APM:Plane 2.74b](https://github.com/smurfy/ardupilot-mpng/archive/mpng_ArduPlane-2.74b.zip)
 * [MegaPirateNG - DEV Version](https://github.com/SirAlex/ardupilot-mpng/archive/master.zip)
 
 If you know your way around GIT you also can clone the respective repository from github.com
