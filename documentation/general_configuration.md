@@ -5,16 +5,17 @@ title: General Configuration
 
 # General Configuration
 
+All configuration here requires you to modify the source-code of MegaPirateNG. You need to save the changes and recompile / upload this changes with Arduino IDE.
+
 ## Changing Board Type
 
-MegaPirateNG supports different types of flight controller boards
-You have to set the configuration to the board you use.
+MegaPirateNG supports different types of flight controller boards. In order to get the Firmware running you have to specify which board you are using.
 
 After opening the desired Sketch change to the ```APM_Config.h``` file in the tab-bar.
-In the file you have to change the line ```#define MPNG_BOARD_TYPE   RCTIMER_CRIUS_V2``` with the
+In this file you need to change the line ```#define MPNG_BOARD_TYPE   RCTIMER_CRIUS_V2``` with the
 board you have.
 
-The file also contains the list of supported boards in a comment below the define.
+The file also contains the list of supported boards in a comment block bellow configuration define itself.
 
 For example (using a crius v1):
 
@@ -29,12 +30,12 @@ For example (using a crius v1):
 
 ## Select frame type
 
-If you use ***APM:Copter*** and you are not using a quad-copter you have set the correct frame configuration for that frame.
-If you do use a quad-copter you can ignore this setting.
+If you use ***APM:Copter*** and you are not using a quad-copter you need to set the correct frame configuration for that frame.
+If you do use a quad-copter, you can ignore this setting.
 
 The configuration option is also located in the ```APM_Config.h``` file.
 
-If you want to use a tri-copter you need to change the ```//#define FRAME_CONFIG HEXA_FRAME``` line.
+If you want to use, for example, a tri-copter you need to change the ```//#define FRAME_CONFIG HEXA_FRAME``` line.
 First of you need to remove the ```//``` before the line to uncomment and use the configuration and set the value to ```TRI_FRAME```
 
 For example (using a tri-copter):
