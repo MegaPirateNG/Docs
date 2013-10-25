@@ -11,6 +11,11 @@ a {
     color: #000000;
 }
 
+
+h1, h2, h3 {
+    border-bottom: 1px solid #DDDDDD;
+}
+
 h1 {
     font-size: 18px;
 }
@@ -22,25 +27,35 @@ h3 {
 }
 
 code {
-    background: #f3f1b4;
-    border: 1px solid #222222;
+    background: #F8F8F8;
+    border: 1px solid #DDDDDD;
+    padding: 0 4px;
+    display: inline-block;
+}
+
+pre code {
+    padding: 4px;
 }
 
 .header {
     background: #ffffff;
-    padding: 10px 0;
+    padding: 10px;
 }
 
 .header a {
-    width: 600px;
-    margin: 0 auto;
     display: block;
     color: #222222;
     font-size: 22px;
     font-weight: bold;
+    text-decoration: none;
+}
+
+.page-margin {
+    width: 960px;
+    margin: 0 auto;
 }
 
 .content {
-    width: 600px;
-    margin: 0 auto;
+    padding: 5px 10px 5px 15px;
+    background: #ffffff;
 }
