@@ -57,13 +57,14 @@ If you know your way around GIT you also can clone the respective repository fro
 * Connect your Flight Controller to your Computer and set the Serial Port in the Arduino IDE
 
   ![Arduino preferences](../images/compile_arduino_set_serialport.jpg)
-  
+
 * ***Important*** Restart the Arduino IDE
 
 ## Compiling
 
-Now open your desired APM Autopilot Platform (ArduCopter, ArduPlane...) via ```File > Sketchbook```
-Now you can compile the source code by pressing either the first icon in the toolbar or by pressing ```ctrl+R```
+Now open your desired APM Autopilot Platform (ArduCopter, ArduPlane...) via ```File > Sketchbook```.
+
+To compile the source code, pressing either the first icon in the toolbar or press ```ctrl+R```.
 
 If your source compiles without a problem you are ready to begin to configure your UAV.
 
