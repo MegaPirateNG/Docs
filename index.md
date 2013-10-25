@@ -13,13 +13,13 @@ MegaPirateNG (in short MPNG) is a fork of the popular APM Autopilot Suite to che
 * APM:Copter (SirAlex)
 * APM:Plane (smurfy)
 * APM:Rover (no maintainer / no stable support)
-* MissionPlanner (use the APM Autopilot Suite one)
+* MissionPlanner - use the official one
 
 ## Documentation
 
-For almost all configuration and usage documentation the documentation provided by APM is valid for MegaPirateNG as-well.
+For almost all configuration and usage documentation the documentation provided by APM is valid for MegaPirateNG as-well, but MegaPirateNG specific configuration is documented here.
 
-MegaPirateNG documentation
+MegaPirateNG specific documentation:
 
 * [Compile and flash firmware](documentation/compile)
 * [General configuration](documentation/general_configuration)
