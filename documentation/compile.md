@@ -38,7 +38,7 @@ In our example we call the directory ```ardupilot-mpng```
 Windows:
 
 Locate the ```pde.jar``` in your sources root directory for example ```c:\quadcopter\ardupilot-mpng\pde.jar```,
-copy and replace the file with the file ```c:\quadcopter\ArduPilot-Arduino-1.0.3-windows```
+copy and replace the file with the file in ```c:\quadcopter\ArduPilot-Arduino-1.0.3-windows\lib```
 
 MacOSX:
 
@@ -49,19 +49,19 @@ copy and replace the file with the file in ```~username/quadcopter/Arduino.app/C
 
 5. Change the target-platform to MegaPirateNG
 
-![Arduino Platform](images/compile_arduino_platform.jpg)
+![Arduino Platform](../images/compile_arduino_platform.jpg)
 
 6. Open preferences and set the sketch folder to the source code directory, for example ```c:\quadcopter\ardupilot-mpng```
 
-![Arduino preferences](images/compile_arduino_preferences1.jpg)
+![Arduino preferences](../images/compile_arduino_preferences1.jpg)
 
-![Arduino preferences](images/compile_arduino_preferences2.jpg)
+![Arduino preferences](../images/compile_arduino_preferences2.jpg)
 
 You also should uncheck the "Update sketch files to new extension on save" checkbox.
 
 7. Connect your Flight Controller to your Computer and set the Serial Port in the Arduino IDE
 
-![Arduino preferences](images/compile_arduino_set_serialport.jpg)
+![Arduino preferences](../images/compile_arduino_set_serialport.jpg)
 
 8. ***Important*** Restart the Arduino IDE
 
@@ -72,4 +72,4 @@ Now you can compile the source code by pressing either the first icon in the too
 
 If your source compiles without a problem you are ready to begin to configure your UAV.
 
-[Continue with the general configuration](general_configuration)
+continue with the [General Configuration](general_configuration)

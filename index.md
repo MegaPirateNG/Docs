@@ -15,3 +15,22 @@ MegaPirateNG (in short MPNG) is a fork of the popular APM Autopilot Suite to che
 * APM:Rover (no maintainer / no stable support)
 * MissionPlanner (use the APM Autopilot Suite one)
 
+## Documentation
+
+For almost all configuration and usage documentation the documentation provided by APM is valid for MegaPirateNG as-well.
+
+MegaPirateNG documentation
+
+* [Compile and flash firmware](documentation/compile)
+* [General configuration](documentation/general_configuration)
+* [Connecting your components](documentation/connecting_components)
+* [Troubleshooting](documentation/troubleshooting)
+
+You find the official APM documentations here:
+
+* [APM:Copter](http://copter.ardupilot.com/)
+* [APM:Plane](http://plane.ardupilot.com/)
+* [APM:Rover](http://rover.ardupilot.com/)
+* [MissionPlanner](http://planner.ardupilot.com/)
+
+
