@@ -21,11 +21,11 @@ If you know your way around GIT you also can clone the respective repository fro
 
 ## Prepare your Environment
 
-* Extract ArduPilot-Arduino 1.0.3, for example ```c:\quadcopter```
+* Extract ArduPilot-Arduino 1.0.3, for example to ```c:\quadcopter```
   You now should have a directory called ```ArduPilot-Arduino-1.0.3-windows``` (Windows) or an ```Arduino``` application (MacOSX) in the ```c:\quadcopter``` directory.
-* Extract the downloaded source code, for example ```c:\quadcopter```
+* Extract the downloaded source code, for example to ```c:\quadcopter```
   You now should have a new directory in the ```c:\quadcopter``` directory called like the zip file.
-  In our example we call the directory ```ardupilot-mpng```
+  In our example we use the name ```ardupilot-mpng``` for this directory.
 * ***Important*** Replace the shipped ```pde.jar``` from the source directory to the ardupilot-arduino software.
   Windows:
 
