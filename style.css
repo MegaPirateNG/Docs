@@ -63,5 +63,6 @@ img {
     padding: 5px 10px 5px 15px;
     background: #ffffff;
     border-top: 3px solid #BBBBBB;
-    margin: 10px 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
