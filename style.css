@@ -1,0 +1,47 @@
+body {
+    background: #F2F2F3;
+    margin: 0;
+    padding: 0;
+    color: #222222;
+    font-family: "Verdana", "Helvetica";
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #444444;
+}
+
+h1 {
+    font-size: 18px;
+}
+h2 {
+    font-size: 16px;
+}
+h3 {
+    font-size: 14px;
+}
+
+code {
+    background: #f3f1b4;
+    border: 1px solid #222222;
+}
+
+.header {
+    background: #ffffff;
+    padding: 10px 0;
+}
+
+.header a {
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+    color: #222222;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.content {
+    width: 600px;
+    margin: 0 auto;
+}
