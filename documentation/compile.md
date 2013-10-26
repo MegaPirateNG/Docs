@@ -7,11 +7,11 @@ title: Compile the MegaPirateNG from source
 
 ## Prerequisites
 
-* ArduPilot-Arduino 1.0.3 (~95 MB)
+* ArduPilot-Arduino 1.0.3
 
   You need a special version of the Arduino software to compile the source.
-  * [ArduPilot-Arduino-1.0.3 for Windows](http://ardupilot.com/downloads/?did=45)
-  * [ArduPilot-Arduino-1.0.3 for MacOSX](http://ardupilot.com/downloads/?did=44)
+  * [ArduPilot-Arduino-1.0.3 for Windows](http://ardupilot.com/downloads/?did=45) (~95 MB)
+  * [ArduPilot-Arduino-1.0.3 for MacOSX](http://ardupilot.com/downloads/?did=44) (~80 MB)
 
 * The latest sourcecode
 
