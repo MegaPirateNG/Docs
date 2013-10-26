@@ -41,6 +41,31 @@ img {
     max-width: 100%;
 }
 
+table {
+    display: block;
+    overflow: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table th,
+table td {
+    border: 1px solid #DDDDDD;
+    padding: 6px 13px;
+}
+table th {
+    font-weight: bold;
+}
+
+table tr {
+    background-color: #FFFFFF;
+}
+
+table tr:nth-child(2n) {
+    background-color: #F8F8F8;
+}
+
 .page-margin {
     width: 960px;
     margin: 0 auto;
