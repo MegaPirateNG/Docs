@@ -31,8 +31,19 @@ and connect the RC Receiver like this.
 
 ## Connecting Motors
 
-This documentation is missing.
-For now please refer to:
+![Rotation informations](../images/connecting_components_copter_motors_rotation.png)
 
-* [Old MegaPirateNG Wiki](http://code.google.com/p/megapirateng/wiki/confighw?wl=en)
-* [Official APM:Copter documentation](http://copter.ardupilot.com/wiki/connecting-your-rc-input-and-motors/)
+### Quad-Copter in + and X configuration
+![Motor for Quad Copter](../images/connecting_components_copter_motors_quad.png)
+
+### Tri-Copter
+![Motor and Servo for Tri Copter](../images/connecting_components_copter_motors_tri.png)
+
+### Hexa-Copter
+![Motor for Hexa Copter](../images/connecting_components_copter_motors_hexa.png)
+
+### Octo-Copter
+![Motor for Octo Copter](../images/connecting_components_copter_motors_octo.png)
+
+### V Octo-Copter, Y6 and X8
+![Motor for Octo Copter](../images/connecting_components_copter_motors_special.png)
