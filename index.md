@@ -19,13 +19,6 @@ MegaPirateNG (in short MPNG) is a fork of the popular APM Autopilot Suite to che
 
 For almost all configuration and usage documentation the documentation provided by APM is valid for MegaPirateNG as-well, but MegaPirateNG specific configuration is documented here.
 
-MegaPirateNG specific documentation:
-
-* [Compile and flash firmware](documentation/compile)
-* [General configuration](documentation/general_configuration)
-* [Connecting your components](documentation/connecting_components)
-* [Troubleshooting](documentation/troubleshooting)
-
 You find the official APM documentations here:
 
 * [APM:Copter](http://copter.ardupilot.com/)

@@ -41,6 +41,11 @@ img {
     max-width: 100%;
 }
 
+.page-margin {
+    width: 960px;
+    margin: 0 auto;
+}
+
 .header {
     background: #ffffff;
     padding: 10px;
@@ -52,11 +57,46 @@ img {
     font-size: 22px;
     font-weight: bold;
     text-decoration: none;
+    background: transparent url(logo.png) 0 0 no-repeat;
+    padding-left: 74px;
+    height: 64px;
 }
 
-.page-margin {
-    width: 960px;
-    margin: 0 auto;
+.header a small {
+    display: block;
+    color: #3c3c3c;
+}
+
+.menu {
+    background: #111111;
+}
+
+.menu ul {
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    float: left;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+    border-right: 1px solid #f2f2f2;
+}
+
+.menu li:first-child a {
+    border-left: 1px solid #f2f2f2;
+}
+
+.menu a:hover {
+    color: #aaaaaa;
 }
 
 .content {
