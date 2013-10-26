@@ -101,6 +101,3 @@ For example (using multiwii's order):
     // JR
     // FLAPS:MODE, GEAR:SAVE TRIMM = apm ch7
     //static uint8_t pinRcChannel[8] = {1, 2, 0, 3, 5, 6, 4, 7};
-
-
-continue with [Connecting your components](connecting_components)

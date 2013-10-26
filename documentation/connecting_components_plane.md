@@ -12,5 +12,3 @@ title: APM:Plane - Connecting your components
 ## Motor and Servos to a Crius V2
 
 ![Motor and Servos](../images/connecting_components_plane_motors.png)
-
-back to [Connecting your components](connecting_components)

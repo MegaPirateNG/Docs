@@ -67,5 +67,3 @@ Now open your desired APM Autopilot Platform (ArduCopter, ArduPlane...) via ```F
 To compile the source code, pressing either the first icon in the toolbar or press ```ctrl+R```.
 
 If your source compiles without a problem you are ready to begin to configure your UAV.
-
-continue with the [General Configuration](general_configuration)
