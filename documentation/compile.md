@@ -19,7 +19,7 @@ title: Compile the MegaPirateNG from source
   * [MegaPirateNG - APM:Plane 2.74b](https://github.com/smurfy/ardupilot-mpng/archive/mpng_ArduPlane-2.74b.zip)
   * [MegaPirateNG - DEV Version](https://github.com/SirAlex/ardupilot-mpng/archive/master.zip)
 
-If you know your way around GIT you also can clone the respective repository from github.com
+  If you know your way around GIT you also can clone the respective repository from github.com
 
 ## Prepare your Environment
 

@@ -8,7 +8,7 @@ title: Connecting your components
 ## Serial Ports
 
 * Serial0 (RX0,TX0) - USB, OSD (Minim OSD) or Telemetry (3DR, Xbee, Bluetooth)
-* Serial1 (RX1,TX1) - ***Not supported*** OSD which not compatible with Mavlink (Remzibi, E-OSD, FrSky)
+* Serial1 (RX1,TX1) - ***Serial 1 is currently not used*** - OSD which not compatible with Mavlink (Remzibi, E-OSD, FrSky)
 * Serial2 (RX2,TX2) - GPS
 * Serial3 (RX3,TX3) - OSD (Minim OSD) or Telemetry (3DR, Xbee, Bluetooth)
 

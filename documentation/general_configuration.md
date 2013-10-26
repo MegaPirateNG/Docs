@@ -15,7 +15,7 @@ After opening the desired Sketch change to the ```APM_Config.h``` file in the ta
 In this file you need to change the line ```#define MPNG_BOARD_TYPE   RCTIMER_CRIUS_V2``` with the
 board you have.
 
-The file also contains the list of supported boards in a comment block bellow configuration define itself.
+The file also contains the list of supported boards in a comment block bellow the configuration define itself.
 
 For example (using a crius v1):
 
@@ -72,7 +72,7 @@ Change ```#define SERIAL_PPM SERIAL_PPM_ENABLED``` to ```#define SERIAL_PPM SERI
 
 ## Change the RC input channel order
 
-MegaPirate uses the default RC input channel order used by APM hardware, but you are able to change it if you like.
+MegaPirateNG uses the default RC input channel order used by APM hardware, but you are able to change it if you like.
 
 The configuration is located in the ```libraries\AP_HAL_MPNG\RCInput_MPNG.cpp``` file.
 
