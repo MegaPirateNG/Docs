@@ -1,4 +1,4 @@
 Docs
 ====
 
-[MegaPirateNG Documentation](http://megapirateng.github.io/Docs/)
+[MegaPirateNG Documentation](http://docs.megapirateng.com/)
