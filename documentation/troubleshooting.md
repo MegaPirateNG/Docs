@@ -10,7 +10,7 @@ title: Troubleshooting
 There is a bug with old Arduino bootloaders, you have the following options:
 
 1. If you have an AVR-ISP Programmer you can update the bootloader.
-2. Change the ```#define BOOTLOADER_BUGFIX "234fs34567hf"``` line in your ```APM_Config.h```, replace the string (“234fs34567hf”) with some random characters and try to upload the firmware again.
+2. Change the ```#define BOOTLOADER_BUGFIX "234fs34567hf"``` line in your ```APM_Config.h```, replace the string ```"234fs34567hf"``` with some random characters and try to upload the firmware again.
 
 ## My Transmitter does not work
 
