@@ -68,7 +68,7 @@ Change ```#define SERIAL_PPM SERIAL_PPM_ENABLED``` to ```#define SERIAL_PPM SERI
 
 ### Regular PWM inputs A8-A15
 
-Change ```#define SERIAL_PPM SERIAL_PPM_ENABLED``` to ```#define SERIAL_PPM SERIAL_PPM SERIAL_PPM_DISABLED```
+Change ```#define SERIAL_PPM SERIAL_PPM_ENABLED``` to ```#define SERIAL_PPM SERIAL_PPM_DISABLED```
 
 ## Change the RC input channel order
 
