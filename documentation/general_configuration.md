@@ -76,28 +76,16 @@ MegaPirateNG uses the default RC input channel order used by APM hardware, but y
 
 The configuration is located in the ```libraries\AP_HAL_MPNG\RCInput_MPNG.cpp``` file.
 
-If you uncomment one line to enable the alternate channel order you have to comment the standard order in.
+If you want to use, for example, the multiwii channel order you need to change the ```//#define RC_MAPPING RC_MAP_STANDARD``` line.
+First of you need to remove the ```//``` before the line to uncomment and use the configuration and set the value to ```RC_MAP_MULTIWII```
 
-For example (using multiwii's order):
+For example (multiwii):
 
-    // To change pinmapping, uncomment ONE line starting with 'static unit8_t...'
-
-    // Graupner/Spektrum
-    // PITCH,YAW,THROTTLE,ROLL,AUX1,AUX2,CAMPITCH,CAMROLL
-    //static uint8_t pinRcChannel[8] = {1, 3, 2, 0, 4, 5, 6, 7};
-
-    // Standard (Default)
-    // ROLL,PITCH,THROTTLE,YAW,MODE,AUX2,CAMPITCH,CAMROLL
-    //static uint8_t pinRcChannel[8] = {0, 1, 2, 3, 4, 5, 6, 7};
-
-    // some Hitec/Sanwa/others
-    // PITCH,ROLL,THROTTLE,YAW,AUX1,AUX2,CAMPITCH,CAMROLL
-    //static uint8_t pinRcChannel[8] = {1, 0, 2, 3, 4, 5, 6, 7};
-
-    // Multiwii
-    // ROLL,THROTTLE,PITCH,YAW,AUX1,AUX2,CAMPITCH,CAMROLL
-    static uint8_t pinRcChannel[8] = {1, 2, 0, 3, 4, 5, 6, 7};
-
-    // JR
-    // FLAPS:MODE, GEAR:SAVE TRIMM = apm ch7
-    //static uint8_t pinRcChannel[8] = {1, 2, 0, 3, 5, 6, 4, 7};
+    #define RC_MAPPING RC_MAP_MULTIWII
+    /*
+            RC_MAP_STANDARD 1
+            RC_MAP_GRAUPNER 2
+            RC_MAP_HITEC 3
+            RC_MAP_MULTIWII 4
+            RC_MAP_JR 5
+    */
