@@ -24,6 +24,8 @@ title: Compile the MegaPirateNG from source
 ## Prepare your Environment
 
 * Extract ArduPilot-Arduino 1.0.3, for example to ```c:\quadcopter```
+  
+  Make sure that the full pathname is not longer than ```255``` chars, or you could encounter compile problems.
 
   You now should have a directory called ```ArduPilot-Arduino-1.0.3-windows``` (Windows) or an ```Arduino``` application (MacOSX) in the ```c:\quadcopter``` directory.
 * Extract the downloaded source code, for example to ```c:\quadcopter```
