@@ -132,3 +132,11 @@ table tr:nth-child(2n) {
     margin-top: 10px;
     box-shadow: 5px 5px 5px #DDDDDD;
 }
+
+.edit {
+	text-align: right;
+}
+
+.edit a {
+	text-decoration: none;
+}
