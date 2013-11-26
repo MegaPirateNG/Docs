@@ -3,7 +3,13 @@ layout: default
 title: Compile the MegaPirateNG from source
 ---
 
-# How to compile MegaPirateNG source
+# Install MegaPirateNG on your flight-controller
+
+If you just want to install MegaPirateNG on your flight-controller and using Windows you can try the dedicated [FlashTool](flashtool).
+
+If you want to compile it yourself or have special configuration needs that are not possible with the FlashTool, follow this page.
+
+# How to compile MegaPirateNG from source
 
 ## Prerequisites
 
