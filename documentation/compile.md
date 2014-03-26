@@ -21,7 +21,7 @@ If you want to compile it yourself or have special configuration needs that are 
 
 * The latest sourcecode
 
-  * [MegaPirateNG - APM:Copter 3.0.1-R3](https://github.com/SirAlex/ardupilot-mpng/archive/mpng-3.0.1-r3.zip)
+  * [MegaPirateNG - APM:Copter 3.0.1-R4](https://github.com/SirAlex/ardupilot-mpng/archive/mpng-3.0.1-r4.zip)
   * [MegaPirateNG - APM:Plane 2.76](https://github.com/smurfy/ardupilot-mpng/archive/mpng_ArduPlane-2.76.zip)
   * [MegaPirateNG - DEV Version](https://github.com/SirAlex/ardupilot-mpng/archive/master.zip)
 

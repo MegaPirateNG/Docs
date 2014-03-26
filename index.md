@@ -15,6 +15,8 @@ Including but not limited to:
 * HobbyKing AllInOne Pro boards
 * HobbyKing MultiWii Pro board with ITG3205 and BMA180, BMP085
 * Black Vortex
+* MultiWii PRO Ez3.0 Blacked MAG Editon Flight Controller (No compass)
+* PARIS v5 Mega iOSD
 
 ## Supported APM Autopilot Platforms and maintainers
 
@@ -22,7 +24,7 @@ Including but not limited to:
 * APM:Copter (SirAlex)
 * APM:Plane (smurfy)
 * APM:Rover (no maintainer / no stable support)
-* MissionPlanner - use the official one
+* MissionPlanner/APM Planner 2 - use the official one
 
 ## Documentation
 
@@ -34,5 +36,5 @@ You find the official APM documentations here:
 * [APM:Plane](http://plane.ardupilot.com/)
 * [APM:Rover](http://rover.ardupilot.com/)
 * [MissionPlanner](http://planner.ardupilot.com/)
-
+* [APM Planner 2](http://planner2.ardupilot.com/)
 

@@ -26,6 +26,8 @@ For example (using a crius v1):
        CRIUS_V1            -- Use this define for RCTimer CRIUS V1(1.1) board and all HobbyKing AIOP boards
        HK_RED_MULTIWII_PRO -- HobbyKing MultiWii Pro board with ITG3205 and BMA180, BMP085 sensors
        BLACK_VORTEX
+       MULTIWII_PRO_EZ3_BLACK  -- ReadyToFlyQuads - MultiWii PRO Ez3.0 Blacked MAG Editon Flight Controller w/ GPS Option (NO COMPASS)
+       PARIS_V5_OSD            -- PARIS v5 Mega iOSD - http://www.multiwiicopter.com/products/multiwii-paris-v5-mega-iosd-gps-autopilot
     */
 
 ## Select frame type
