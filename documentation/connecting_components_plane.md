@@ -31,7 +31,7 @@ and connect the RC Receiver like this.
 
 ## Motor and Servos
 
-Connection for a four channel plane setup.
+### Connections for a 4 channel plane setup
 
 | Pin  | Channel          |
 |------|------------------|
@@ -42,7 +42,7 @@ Connection for a four channel plane setup.
 
 ![Motor and Servos for 4 channel Plane setup](../images/connecting_components_plane_motors.png)
 
-Connection for a elevon plane setup.
+### Connections for a elevon plane setup
 
 | Pin  | Channel          |
 |------|------------------|
@@ -50,8 +50,11 @@ Connection for a elevon plane setup.
 | D5   | Right Elevon     |
 | D6   | Left Elevon      |
 
+Please use the new ```ELEVON_OUTPUT``` option to enable elevon support, not the old ```ELEVON_MIXING``` which causes problems and does not work.
+
+For more information please read the [official ardupilot documentation](http://plane.ardupilot.com/wiki/arduplane-setup/first-time-apm-setup/reversing-servos-and-setting-normalelevon-mode/#New_style_elevon_mixing_EEPROM_setup_ELEVON_OUTPUT_option) on that topic.
+
 ![Motor and Servos for elevon plane setup](../images/connecting_components_plane_motors_elevon.png)
 
-Please follow the [official ardupilot documentation](http://plane.ardupilot.com/wiki/arduplane-setup/first-time-apm-setup/reversing-servos-and-setting-normalelevon-mode/#New_style_elevon_mixing_EEPROM_setup_ELEVON_OUTPUT_option) on the ```New style elevon mixing EEPROM setup (ELEVON_OUTPUT option)``` topic.
-The ```ELEVON_MIXING``` method seams to cause problems.
+
 
