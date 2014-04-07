@@ -45,3 +45,33 @@ In most cases its not really needed, but you have the option.
 
 After this changes, a compile and flash you also need to erase and reset to factory defaults via Mission Planner.
 
+## RSSI input on analog PIN A0
+
+```config.h``` changes:
+
+Around line 208 you will find:
+
+    #elif CONFIG_HAL_BOARD == HAL_BOARD_MPNG
+     # define A_LED_PIN        13
+     
+Change to:
+
+    #elif CONFIG_HAL_BOARD == HAL_BOARD_MPNG
+     # define RECEIVER_RSSI_PIN 0
+     # define A_LED_PIN        13
+
+```parameters.ino``` changes:
+
+Around line 192 you will find:
+    
+    GSCALAR(rssi_pin,            "RSSI_PIN",         -1),
+
+
+Change to:
+
+    GSCALAR(rssi_pin,            "RSSI_PIN",         RECEIVER_RSSI_PIN),
+    
+
+After that you can enable the RSSI_PIN via MissionPlanner.
+To test if it works you can connect a 1.5v battery on ```A0```
+    
