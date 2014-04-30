@@ -20,4 +20,6 @@ Please refer the [General Configuration](general_configuration#rc_input_type_con
 
 ## My quadcopter does not arm!
 
-The Megapirate checks for magnetometer levels to be right. Try calibrate it first on APM Planner. On CRIUS V1.1 it might be not arm even when calibrated, for that just get a magnet and make a circle arround the Crius Board and try again.
+The Megapirate checks for magnetometer levels to be right. Try calibrate it first on APM Planner (See [!Calibrate Compass](http://copter.ardupilot.com/wiki/initial-setup/configuring-hardware/#Calibrate_Compass). On CRIUS V1.1 it might be not arm even when calibrated, for that just get a magnet and make a circle arround the Crius Board and try again.
+
+If you want to know more details about why it does not arm your quadcopter, take a look in [!Pre-Arm Safety Check](http://copter.ardupilot.com/wiki/prearm_safety_check/)
