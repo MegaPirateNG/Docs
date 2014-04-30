@@ -16,3 +16,8 @@ There is a bug with old Arduino bootloaders, you have the following options:
 
 If you can move your sticks and the flight controller seams to not register any of your inputs its most likely you forgot configuring your correct RC Input type.
 Please refer the [General Configuration](general_configuration#rc_input_type_configuration) documentation.
+
+
+## My quadcopter does not arm!
+
+The Megapirate checks for magnetometer levels to be right. Try calibrate it first on APM Planner. On CRIUS V1.1 it might be not arm even when calibrated, for that just get a magnet and make a circle arround the Crius Board and try again.
