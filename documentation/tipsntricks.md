@@ -65,7 +65,7 @@ So now it will start measuring battery voltage. But you need to calibrate the so
 
 You can also use other Analog Ports ( I use A0 ) for Battery Measuring. Just change the Voltage Pin Number for that.
 
-There is other stuff you can configure related to the Battery Voltage Monitor. For more details take a look on the oficial documentation for [!Power Module set-up to measure battery voltage and current consumption](http://copter.ardupilot.com/wiki/common-measuring-battery-voltage-and-current-consumption-with-apm/)
+There is other stuff you can configure related to the Battery Voltage Monitor. For more details take a look on the oficial documentation for [Power Module set-up to measure battery voltage and current consumption](http://copter.ardupilot.com/wiki/common-measuring-battery-voltage-and-current-consumption-with-apm/)
 
 ## RSSI input on analog PIN A0
 
