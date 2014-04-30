@@ -45,6 +45,26 @@ In most cases its not really needed, but you have the option.
 
 After this changes, a compile and flash you also need to erase and reset to factory defaults via Mission Planner.
 
+## Battery Voltage Meter on Analog PIN A1
+
+That is just a hardware modification. Basicly you will need two resistors (R1 of 120k and R2 of 27k) hooked up like this:
+
+![Resistor Voltage Divider](../images/battery_voltage_divider.png)
+
+So now you can go to APM Planner -> Initial Setup -> Optional Setup -> Battery Monitor -> Advanced.
+There you change these stuff:
+
+    Monitor     => ```3: Battery Voltage```
+    Sensor      => ```0: Other```
+    APM Version => ```0: APM1```
+    Voltage Pin => ```1```
+    
+So now it will start measuring battery voltage. But you need to calibrate the software. So get a multimeter and measure the voltage across the battery. I recomend to use a fully charged battery (3s will give arround 12.6V and 4s will give you arround 16.4V). After you get a reference, write it on field ```1. Measured Battery Voltage``` So now it should change automatically the parameter ```3. Voltage Divider (calced)``` and start measuring the correct voltage on ``` 2. Voltage from Autopilot (calced)```
+
+![APM Planner Battery Monitor](../images/apm_battery_pin.png)
+
+You can also use other Analog Ports ( I use A0 ) for Battery Measuring. Just change the Voltage Pin Number for that.
+
 ## RSSI input on analog PIN A0
 
 ```config.h``` changes:
