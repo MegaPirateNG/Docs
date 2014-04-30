@@ -54,10 +54,10 @@ That is just a hardware modification. Basicly you will need two resistors (R1 of
 So now you can go to APM Planner -> Initial Setup -> Optional Setup -> Battery Monitor -> Advanced.
 There you change these stuff:
 
-    Monitor     => ```3: Battery Voltage```
-    Sensor      => ```0: Other```
-    APM Version => ```0: APM1```
-    Voltage Pin => ```1```
+    Monitor     => 3: Battery Voltage
+    Sensor      => 0: Other
+    APM Version => 0: APM1
+    Voltage Pin => 1
     
 So now it will start measuring battery voltage. But you need to calibrate the software. So get a multimeter and measure the voltage across the battery. I recomend to use a fully charged battery (3s will give arround 12.6V and 4s will give you arround 16.4V). After you get a reference, write it on field ```1. Measured Battery Voltage``` So now it should change automatically the parameter ```3. Voltage Divider (calced)``` and start measuring the correct voltage on ``` 2. Voltage from Autopilot (calced)```
 
