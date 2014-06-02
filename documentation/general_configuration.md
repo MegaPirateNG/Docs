@@ -59,12 +59,12 @@ For example (using a tri-copter):
 Based on the type of your Receiver you have 3 possible configuration options.
 
 1. Serial PPM on A8 pin selected (default)
-2. Serial PPM (CPPM) on PL1 pin
+2. Serial PPM (CPPM) on PL1 pin (only Crius V2)
 3. Regular PWM inputs A8-A15
 
 If you want to change the type to something other than the default you have to edit the file: ```libraries\AP_HAL_MPNG\RCInput_MPNG.cpp```
 
-### Serial PPM (CPPM) on PL1 pin
+### Serial PPM (CPPM) on PL1 pin (only Crius V2)
 
 Change ```#define SERIAL_PPM SERIAL_PPM_ENABLED``` to ```#define SERIAL_PPM SERIAL_PPM_ENABLED_PL1```
 
