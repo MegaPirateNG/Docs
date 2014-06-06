@@ -13,11 +13,11 @@ If you want to compile it yourself or have special configuration needs that are 
 
 ## Prerequisites
 
-* ArduPilot-Arduino 1.0.3
+* ArduPilot-Arduino 1.0.3 (1.0.5 for OSX)
 
   You need a special version of the Arduino software to compile the source.
   * [ArduPilot-Arduino-1.0.3 for Windows](http://ardupilot.com/downloads/?did=45) (~95 MB)
-  * [ArduPilot-Arduino-1.0.3 for MacOSX](http://ardupilot.com/downloads/?did=44) (~80 MB)
+  * [ArduPilot-Arduino-1.0.5 for MacOSX with avr-gcc 4.8.1](https://www.dropbox.com/s/g1jvk8r8gln7v2m/ardupilot-mpng-gcc-4.8.1-1.0.5-r2-121-g080b774-macosx.zip) (~50 MB)
 
 * The latest sourcecode
 
@@ -48,8 +48,8 @@ If you want to compile it yourself or have special configuration needs that are 
 
   MacOSX:
 
-  Locate the ```pde.jar``` in your sources root directory for example ```~username/quadcopter/ardupilot-mpng/pde.jar```,
-  copy and replace the file with the file in ```~username/quadcopter/Arduino.app/Contents/Resources/Java```
+  There is no need to replace the pde.jar for OSX if you downloaded the 1.0.5 build; it's already integrated.
+
 * Start ArduPilot-Arduino
 
 * Change the target-platform to MegaPirateNG
