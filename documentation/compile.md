@@ -5,7 +5,7 @@ title: Compile the MegaPirateNG from source
 
 # Install MegaPirateNG on your flight-controller
 
-If you just want to install MegaPirateNG on your flight-controller and using Windows you can try the dedicated [FlashTool](flashtool).
+If you just want to install MegaPirateNG on your flight-controller we recommend our [FlashTool](flashtool), which is supported on Windows and MacOSX.
 
 If you want to compile it yourself or have special configuration needs that are not possible with the FlashTool, follow this page.
 
@@ -16,17 +16,16 @@ If you want to compile it yourself or have special configuration needs that are 
 * ArduPilot-Arduino 1.0.3
 
   You need a special version of the Arduino software to compile the source.
-  * [ArduPilot-Arduino-1.0.3 for Windows](http://ardupilot.com/downloads/?did=45) (~95 MB)
+  * [ArduPilot-Arduino-1.0.3 for Windows with GCC 4.8.2](http://firmware.diydrones.com/Tools/Arduino/ArduPilot-Arduino-1.0.3-gcc-4.8.2-windows.zip) (~190 MB)
   * [ArduPilot-Arduino-1.0.3 for MacOSX](http://ardupilot.com/downloads/?did=44) (~80 MB)
 
 * The latest sourcecode
 
-  * [MegaPirateNG - APM:Copter 3.0.1-R4](https://github.com/SirAlex/ardupilot-mpng/archive/mpng-3.0.1-r4.zip)
-  * [MegaPirateNG - APM:Plane 2.76](https://github.com/smurfy/ardupilot-mpng/archive/mpng_ArduPlane-2.76.zip)
-  * [MegaPirateNG - DEV Version](https://github.com/SirAlex/ardupilot-mpng/archive/master.zip)
+  * [MegaPirateNG - APM:Copter](https://github.com/MegaPirateNG/ardupilot-mpng)
+  * [MegaPirateNG - APM:Plane 2.76](https://github.com/smurfy/ardupilot-mpng)
 
   If you know your way around GIT you also can clone the respective repository from github.com
-
+  
 ## Prepare your Environment
 
 * Extract ArduPilot-Arduino 1.0.3, for example to ```c:\quadcopter```
