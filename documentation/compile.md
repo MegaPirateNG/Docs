@@ -16,6 +16,7 @@ If you want to compile it yourself or have special configuration needs that are 
 * ArduPilot-Arduino 1.0.3
 
   You need a special version of the Arduino software to compile the source.
+  
   * [ArduPilot-Arduino-1.0.3 for Windows with GCC 4.8.2](http://firmware.diydrones.com/Tools/Arduino/ArduPilot-Arduino-1.0.3-gcc-4.8.2-windows.zip) (~190 MB)
   * [ArduPilot-Arduino-1.0.3 for MacOSX](http://ardupilot.com/downloads/?did=44) (~80 MB)
 
