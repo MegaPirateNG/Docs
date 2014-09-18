@@ -17,6 +17,7 @@ Including but not limited to:
 * Black Vortex
 * MultiWii PRO Ez3.0 Blacked MAG Editon Flight Controller (No compass)
 * PARIS v5 Mega iOSD
+* F4BY
 
 ## Supported APM Autopilot Platforms and maintainers
 
