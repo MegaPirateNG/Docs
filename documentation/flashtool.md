@@ -6,9 +6,9 @@ title: Using the MegaPirateNG FlashTool
 # Use the FlashTool to install MegaPirateNG
 
 There is a dedicated tool available to install MegaPirateNG on you flight-controller.
-The tool is currently only available for Windows.
+The tool is currently only available for Windows and MacOSX.
 
-Current version: [1.0rc2](https://github.com/MegaPirateNG/FlashTool/releases/tag/1.0rc2)
+The latest version is available [here](https://github.com/MegaPirateNG/FlashTool/releases)
 
 ## What does the FlashTool do?
 
