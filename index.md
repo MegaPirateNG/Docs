@@ -10,6 +10,7 @@ MegaPirateNG (in short MPNG) is a fork of the popular APM Autopilot Suite.
 The goal is to support AllInOne IMU flight controller boards.
 
 Including but not limited to:
+
 * RCTimer Crius V2
 * Crius V1 or compatible
 * HobbyKing AllInOne Pro boards
