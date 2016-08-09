@@ -21,7 +21,7 @@ If the code changes you automatically get a new hex file.
 
 ## Short usage help
 
-![FlashTool Screenshot](../images/flashtool.png)
+![FlashTool Screenshot](../../images/flashtool.png)
 
 * Board Type: List of supported flight-controllers. Select the one you have
 * RC Input: First option is what kind of Receiver you have PPM or PWM. You also can choose the input mapping for the receiver. The default mapping is shown at the [Connecting components](connecting_components) page.
